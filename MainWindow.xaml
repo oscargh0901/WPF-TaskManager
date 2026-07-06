@@ -13,6 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,12">
@@ -56,5 +57,8 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+
+        <TextBlock Grid.Row="2" Margin="0,12,0,0" HorizontalAlignment="Right"
+                   Foreground="Gray" Text="{Binding SummaryText}" />
     </Grid>
 </Window>

@@ -9,4 +9,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="WPF-TaskManager.Tests/**/*.cs" />
+  </ItemGroup>
+
 </Project>
